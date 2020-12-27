@@ -1,0 +1,135 @@
+*{
+    box-sizing:border-box;
+
+}
+
+body{
+    margin:0;
+}
+
+.container{
+    padding: 16px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+
+header{
+    background-image: url("/assets/img/img1.jpg");
+    background-size: cover;
+    
+    background-position: center center;
+    // color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+
+    nav{
+      
+            display: flex;
+            justify-content: space-between;
+
+           .logo{
+            font-size:30px;
+            color:#026E78;
+            padding:10px;
+
+            i{
+                margin-right:10px;
+            }
+        }
+
+        h1{
+            color:white;
+        } 
+        }
+        
+
+    }
+   .menu{
+       width:100%;
+     
+       ul{
+           display:flex;
+           justify-content:center;
+           padding:0;
+           list-style-type: none;
+           
+           
+           li{
+            width: calc(100%/5);
+
+              .first-btn{
+                   background-color: white;
+                   color:#026E78;
+               }
+               .second-btn,
+               .third-btn,
+               .fourth-btn
+               {
+                background: #2D99A4;
+                color:white;
+               }
+
+               .fifth-btn{
+                   background:#0E727B;
+                   color:white;
+                  
+               }
+            a{
+                text-decoration: none;
+                padding:16px;
+                border:1px solid #2D99A4;
+                display: inline-block;
+                width: 100%;
+                text-align:center;
+              
+            }
+           }
+       }
+    }
+
+    .content{
+        font-size: 32px;
+        margin: auto;
+        max-width: 100%;
+      
+        a{
+            text-decoration: none;
+            display:block;
+            margin-bottom:5px;
+        }
+
+        .first-btn{
+            background:#0E727B;
+            color:white;
+            width:500px;
+            height:90px;
+            padding:10px;
+            margin-bottom:13px;
+            // text-align:center;
+            font-size:40px;
+        }
+
+        .second-btn{
+            background:white;
+            color:#2D99A4;
+            width:200px;
+            height:50px;
+            padding:10px;
+            text-align:center;
+            font-size:20px;
+            margin-bottom:13px;
+        }
+
+        .third-btn{
+            background:#2D99A4;
+            color:white;
+            width:232px;
+            height:50px;
+            padding:10px;
+        }
+
+    }
+}
